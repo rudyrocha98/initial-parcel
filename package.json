@@ -1,0 +1,17 @@
+{
+  "name": "initial-parceljs",
+  "version": "0.1.0",
+  "main": "index.js",
+  "author": "Rudy Rocha",
+  "license": "MIT",
+  "scripts": {
+    "dev": "parcel src/index.html -p 8080 watch --no-cache",
+    "build": "parcel build src/index.html --out-dir build/ --public-url ./ --no-cache"
+  },
+  "dependencies": {
+    "global": "^4.3.2",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "serve": "^6.5.0"
+  }
+}
